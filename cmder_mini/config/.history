@@ -32,3 +32,33 @@ ls
 ls
 ls
 git --version
+ping gov.ro
+ping localhost
+ping codingbootcamp.cz
+ping wix.com
+git -- version
+git --version
+ls
+ls
+ls
+ls
+git
+git --version
+cp
+cd:\
+cd:\Code
+cd:\Code\
+cd:
+cd ..
+git init
+ls -a
+ls
+pwd
+git add Hello world.html
+git add "Hello World.html"
+git add cmder_mini/
+git status
+git config --global user.name "Adrian"
+git commit -m "First try to commit"
+git add "Hello World.txt"
+git commit
