@@ -62,3 +62,11 @@ git config --global user.name "Adrian"
 git commit -m "First try to commit"
 git add "Hello World.txt"
 git commit
+git add "Hello World.txt"
+git commit
+git remote add origin https://github.com/Lupescua/Codingbootcamp-excercises-winter-2018.git
+cd:\
+cd:/
+cd ..
+git iniy
+git init
