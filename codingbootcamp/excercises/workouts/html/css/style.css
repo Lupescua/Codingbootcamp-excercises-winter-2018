@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(233, 174, 48, 0.2);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h1{    
+    color: rgba(9, 123, 220, 0.7);
+}
+article{
+    color: rgb(7, 133, 138);
+    background-color: rgba(12, 230, 130, 0.8)
+}

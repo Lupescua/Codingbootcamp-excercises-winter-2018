@@ -2,8 +2,8 @@ body {
     background-image: url("Background.jpg");
     background-attachment: fixed;
     text-align: center;  
-    -webkit-transition: all 2725 ease-in-out;
-    transition: all 2725 ease-in-out;  
+    -webkit-transition: all 2725ms ease-in-out;
+    transition: all 2725ms ease-in-out;  
 }
 h1.page_breaker  {
     color: blue;
@@ -31,6 +31,7 @@ img{
 ol {
     list-style-type:none;
     color: white;
+    font-weight: bolder;
 }
 .Xutton {
     font: bold 11px Arial;
