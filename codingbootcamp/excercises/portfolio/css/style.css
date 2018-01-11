@@ -3,6 +3,11 @@ body {
     background-color: #EBE8E7;
 }
 
+.image{
+    width: 60%;
+    height:auto;
+
+}
 .navigation{
     list-style-type: none;
     margin: 0;
