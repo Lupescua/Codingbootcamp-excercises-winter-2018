@@ -1,37 +1,56 @@
 body {
     text-align: center;
     background-color: #EBE8E7;
-}
-
-.image {
-    width: 60%;
-    height: auto;
-}
-
-.navigation {
-    list-style-type: none;
-    display: block;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    text-align: left;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    position: fixed;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-
-.navigation li a {
-    color: #549C74;
-    font-size: 1.5em;
-    width: 15%;
-    display: inline-block;
+    padding-right: 20vw;
 }
 
 .icon {
     text-align: left;
     display: block;
     size: 200%;
+}
+
+
+/*Navigation*/
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: right;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    position: fixed ;
+    right: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    width: 20vw;
+}
+
+.navigation a {
+    color: #549C74;
+    font-size: 1.5em;
+    width: 15%;
+    text-decoration: none;
+}
+
+.navigation a:hover , a:focus {
+    background-color: aliceblue;
+    border-radius: 0.2vw;
+    padding-left: 1vw;
+    padding-right:1vw;
+}
+/*End of Navigation*/
+
+.name {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.image {
+    width: 60%;
+    height: auto;
 }
 
 .promo {
@@ -58,23 +77,57 @@ article {
 
 #skills {
     background-color: #D0B6AB;
+    box-sizing: border-box;
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 100%;
+    /* Full width */
+    background-color: #549C74;
+    /* Grey background */
 }
 
 .skills {
-    display: inline-table;
-    margin: auto;
-    padding: none;
-    text-align: left;
-    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     color: #EBE8E7;
-    background-color: #818985;
-    border: none;
+    text-align: center;
+    padding-right: 10%;
+    height: 90%;
+    ;
 }
+
+.java {
+    width: 10%;
+    background-color: #4CAF50;
+}
+
+
+/* Green */
+
+.games {
+    width: 80%;
+    background-color: rgb(76, 116, 175);
+}
+
+
+/* Green */
+
+.movies {
+    width: 50%;
+    background-color: rgb(147, 76, 175);
+}
+
+
+/* Green */
 
 .portfolio {
     color: #D0B6AB;
     font-size: 1.5em;
     background-image: url(../img/tech.jpg);
+    border: dashed;
     /*how do I set picture transparency to 40%?*/
 }
 
@@ -103,19 +156,32 @@ h3 {
 
 #contact {}
 
+
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -125,17 +191,21 @@ input[type=submit] {
     cursor: pointer;
 }
 
+
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
 /* Add a background color and some padding around the form */
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     max-width: 75%;
     display: block;
-    margin:auto;
+    margin: auto;
 }
